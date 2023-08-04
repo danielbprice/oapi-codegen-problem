@@ -1,14 +1,16 @@
 ---
 # Copyright 2023 Coros, Corp. All Rights Reserved.
+# 
+# Apache 2.0 Licensed; the portion included from 
+# https://github.com/zalando/problem/ is MIT licensed
 #
-# check me with npx @redocly/openapi-cli lint api/scandata/openapi.yaml
 openapi: 3.0.3
 info:
   version: 1.0.0
   title: Test
   description: Provides access to things
   license:
-    name: UNLICENSED
+    name: Apache License 2.0
     url: http://www.example.com/XXX
 
 servers:
